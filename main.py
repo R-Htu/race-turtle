@@ -4,7 +4,7 @@ import random
 s = Screen()
 is_race_on = False
 s.setup(width=400, height= 500)
-my_son = s.textinput(title="Myson bet", prompt= "Which color is the winner")
+my_son = s.textinput(title="My son bet", prompt= "Which color is the winner")
 myself = s.textinput(title="My bet", prompt="Which color is the winner")
 
 colors = ["blue", "indigo", "red", "orange", "green", "black"]
